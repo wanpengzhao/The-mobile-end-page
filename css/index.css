@@ -1,0 +1,464 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{
+	font-size:20px;
+}
+.box{
+	width:16rem;
+}
+
+/*顶部区域 样式*/
+header{
+	  width:16rem;
+	  height:2.252rem;
+	  background:-webkit-linear-gradient(#ffffff,#ececec);
+	  position:relative;
+	  text-align:centter;
+}
+header a{
+		 width:3.25rem;
+		 height:1.475rem;
+		 position:absolute;
+		 top:0.55rem;
+		 left:0.55rem;
+		 background:url(../image/back.png) no-repeat;
+		 text-indent:-9999em;
+		 background-size:100%;
+}
+header img{
+			position:absolute;
+			top:0.175rem;
+			left:4.15rem;
+			width:9.4rem;
+            height:2.2rem;	
+}	  
+			
+/*banner区域 样式*/
+.banner{
+		width:16rem;
+		height:7.5rem;
+		overflow:hidden;
+}
+.banner ul{
+		 width:80rem;
+		 height:6.675rem;
+		 overflow:hidden;
+}
+.banner ul li{
+			 width:16rem;
+			 float:left;
+}
+.banner img{
+            width:16rem;
+}
+.banner ol{
+			width:2.5rem;
+			height:0.25rem;
+			margin:0.525rem auto;
+			overflow:hidden;
+}	 
+.banner ol li{
+			width:0.25rem;
+			height:0.25rem;
+			border-radius:50%;
+			background:#a9a9a9;
+			float:left;
+			margin-left:0.25rem;
+}	
+.banner ol li.active{
+					background:#ff4300;
+}
+/*nav*/
+nav {
+	width:16rem;
+	height:8.875rem;
+}
+nav ul{
+	width:13.5rem;
+	height:7.2rem;
+	margin-top:0.95rem;
+	margin-left:1.3rem;
+	overflow:hidden;
+}
+nav ul li{
+		height:3.6rem;
+		width:3.375rem;
+		float:left;
+}
+nav ul li a{
+			display:block;
+			height:3.6rem;
+			width:3.375rem;
+			text-align:center;
+}
+nav ul li a img{
+				width:2.375rem;
+				height:2.175ren;
+				boacground-size:100%;
+}
+
+nav ul li a span{
+				display:block;
+				font-size:0.575rem;
+				color:#999999;
+				margin-top:0.425rem;
+}
+/*热卖排行 部分*/
+.hot_team{
+		 width:16rem;
+		 height:37.375rem;
+}
+.hot_team .title{
+				width:15.025rem;
+				height:1.375rem;
+				margin:0 auto;
+				border-bottom:0.1rem solid #dcdcdc;
+}
+.hot_team .title .tit{
+					display:block;
+					width:5.3rem;
+            		height:0.75rem;
+					border-left:0.1rem solid #d51938;
+					line-height:0.75rem;
+           			float:left;
+			 		padding-left:0.45rem;
+					font-size:0.7rem;
+					color:#333333;
+}
+.hot_team .title .info{
+					float:right;
+					display:block;
+					height:0.75rem;
+					padding-left:0.05rem;
+					line-height:0.75rem;	
+}
+.hot_team ul{
+			width:15.075rem;
+			height:35rem;
+			margin-left:0.5rem;
+			margin-top:0.75rem;
+}
+.hot_team ul li{
+			width:15rem;
+			height:3rem;
+			margin-bottom:0.5rem;
+}
+.hot_team ul li a{
+		display:block;
+		width:15rem;
+		height:3rem;
+		overflow:hidden;
+}
+.hot_team ul li a .number{
+			width:1.5rem;
+			height:3rem;
+			font-size:0.875rem;
+			text-align:center;
+			line-height:3rem;
+			font-weight:bold;
+			color:#fff;
+			float:left;
+}
+.hot_team ul li a .number1{
+		background:#e00202;
+		}
+.hot_team ul li a .number2{
+		background:#ff4800;
+		}
+.hot_team ul li a .number3{
+		background:#ff7300;
+		}
+.hot_team ul li a .number4{
+		background:#ff9d00;
+		}
+.hot_team ul li a .number5{
+		background:#ffb400;
+		}
+.hot_team ul li a .number6{
+		background:#ffb400;
+		}
+.hot_team ul li a .number7{
+		background:#ffba00;
+		}
+.hot_team ul li a .number8{
+		background:#fcd000;
+		}
+.hot_team ul li a .number9{
+		background:#ffd719;
+		}
+.hot_team ul li a .number10{
+		background:#ffe152;
+		}
+.hot_team ul li a .good_img{
+		width:4.5rem;
+		height:3rem;
+		float:left;
+		}
+.hot_team ul li a .good_img_bg{
+		background:url(../image/frist_good_bg.png) no-repeat;
+		background-size:contain;
+		}
+.hot_team ul li a .good_img_bg_2{
+		background:
+		url(../image/second_good_bg.png) no-repeat;
+		background-size:contain;
+		}
+.hot_team ul li a .good_img_bg_3{
+		background:url(../image/third_good_bg.png) no-repeat;
+		background-size:contain;
+		}
+.hot_team ul li a .good_img_bg_4{
+		background:url(../image/four_good_bg.png) no-repeat;
+		background-size:contain;
+		}
+.hot_team ul li a .good_img_bg_5{
+		background:url(../image/five_good_bg.png) no-repeat;
+		background-size:contain;
+		}
+.hot_team ul li a .good_img_bg_6{
+		background:url(../image/six_good_bg.png) no-repeat;
+		background-size:contain;
+		}
+.hot_team ul li a .good_img_bg_7{
+		background:url(../image/seven_good_bg.png) no-repeat;
+		background-size:contain;
+		}
+.hot_team ul li a .good_img_bg_8{
+		background:url(../image/eight_good_bg.png) no-repeat;
+		background-size:contain;
+		}
+.hot_team ul li a .good_img_bg_9{
+		background:url(../image/nine_good_bg.png) no-repeat;
+		background-size:contain;
+		}
+.hot_team ul li a .good_img_bg_10{
+		background:url(../image/ten_good_bg.png) no-repeat;
+		background-size:contain;
+		}
+
+.hot_team ul li a .price{
+		width:9rem;
+		height:3rem;
+		background:#f4f4f4;
+		float:left;
+		}
+.hot_team ul li a .price_left{
+		  display:block;
+		  width:4.25rem;
+		  height:3rem;
+		  float:left;
+		 }						
+.hot_team ul li a .price_left .sold{
+		display:block;
+		font-size:0.5rem;
+		width:3.1rem;
+		height:0.5rem;
+		margin-left:0.55rem;
+		margin-top:0.7rem;
+		color:#999999;
+		}
+.hot_team ul li a .price_left .sold em{	
+		 width:1.5rem;
+		 height:0.5rem;
+		 margin-left:0.5rem;
+		 font-size:0.5rem;
+		 text-decoration:line-through;
+			}
+.hot_team ul li a .price_right{
+		 display:block;
+		  width:4.25rem;
+		  height:3rem;
+		  float:right;
+}
+.hot_team ul li a .price_right .money{
+	width:1.375rem;
+	height:0.65rem;
+	font-size:0.65rem;
+	margin-left:1.625rem;
+	margin-top:1rem;
+	color:#d51938;
+	float:left;
+}
+.hot_team ul li a .price_right .sys{
+	float:right;
+	margin-top:0.9rem;
+	font-weight:bold;
+	color:#cccccc;
+}
+/*更多划算逛起来*/
+.headline{
+	width:15rem;
+	height:2rem;
+	background:#f5f5f5;
+	text-align:center;
+	line-height:2rem;
+	color:#666666;
+	margin-left:0.5rem;
+	margin-bottom:0.5rem;
+	font-size:0.8rem;
+}
+/*商品团*/
+.good_roll{
+	width:15.025rem;
+	height:8.875rem;
+/*	border:0.05rem solid #eeeeee;
+*/	box-sizing:border-box;
+	margin-left:0.5rem;
+	margin-bottom:0.5rem;
+}
+.fl_left{
+	height:8.875rem;
+	width:3.75rem;
+	float:left;
+}
+.fl_left img{
+	height:8.875rem;
+	width:3.75rem;
+}
+.good_roll ul{
+	border:0.05rem solid #eeeeee;
+	box-sizing:border-box;
+	width: 11.173rem;
+	height:8.925rem;
+	float:left;
+}
+.good_roll ul li{
+	float:left;
+	width:3.69rem;
+	height: 2.22rem;
+	border-bottom:0.05rem solid #eeeeee;
+	border-right:0.05rem solid #eeeeee;
+/*	margin-top:0.05rem;
+*/	box-sizing:border-box;
+	text-align:center;
+	line-height: 2.22rem;
+}
+.good_roll ul li a{
+	color:#999999;
+	font-size:0.65rem;
+}
+.good_roll ul .right{
+	border-right:none;
+}
+.good_roll ul li .red{
+	color:#d51942;
+}
+/*精彩商品 逛起来*/
+.headline span{
+	float:right;
+}
+/*客户端*/
+.client{
+	width:100%rem;
+	height:4rem;
+	margin-bottom:0.7rem;
+	
+}
+.client_list{
+	width:15rem;
+	height:100%;
+	margin:0 auto;
+}
+.client_list ul{
+	width:15rem;
+	height:100%;
+	border:0.05rem solid #dcdcdc;
+	box-sizing:border-box;	
+}
+.client_list ul li{
+	float:left;
+	width:5rem;
+	height:4rem;
+	border-right:0.025rem solid #dcdcdc; 
+	box-sizing:border-box;
+	margin-left: -0.1rem;	
+}
+.client_list ul li img{
+	width:0.95rem;
+	height:1.125rem;
+	margin-top:0.775rem;
+	margin-left:2rem;
+}
+.client_list ul li p{
+	
+	width:3.6rem;
+	height:0.575rem;
+	font-size:0.575rem;
+	color:#999999;
+	margin-left:1.05rem;
+	margin-top:0.9rem;
+}
+.client_list ul .right{
+	border-right:none; 
+}
+/*底部登录注册*/
+.user_opt{
+	width:16rem;
+	height:2.2rem;
+	background:#f8f8f8;
+	overflow:hidden;
+}
+.user_opt a{
+ 			display:block;
+            font-size:0.675rem;
+            color:#333333;
+            line-height:2.2rem;
+            float:left;
+}
+.user_opt .login{
+			margin-left:0.75rem;
+            width:2.575rem;	
+}
+.user_opt .top{
+	margin-left:8.15rem;
+}
+.user_opt img{
+            display:block;
+            float:right;
+            margin-right:0.7rem;
+            margin-top:0.925rem;
+            }
+			
+/*底部*/
+footer{
+	  width:100%;
+	  height:8.625rem;
+	  background:#eeeeee;
+	  border:0rem solid #000;
+	 }	
+footer div{
+	    width:5.425rem;
+		height:1.8rem;
+		overflow:hidden;
+		margin:0 auto;
+}
+footer div a{
+            float:left;
+            display:block;
+            font-size:0.675rem;
+            color:#333333;
+            margin-left:0.325rem;
+            margin-right:0.325rem;
+            margin-top:1rem;
+ }
+footer p{
+	width:8.825rem;
+	height:0.525rem;
+	font-size:0.525rem;
+	color:#999999;
+	margin-top:0.75rem;
+	margin-left:4.2rem;	
+} 	
+footer img{
+		width:13.375rem;
+		height:4.825rem;
+		background-size:100%;
+		margin-left:1.5rem;
+		margin-top:0.8rem;
+}
+		
+			
+			
+			
+			
